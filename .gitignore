@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.log
+
+# runtime data
+data/images/*
+!data/images/.gitkeep
+data/index/*
+!data/index/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+
+# model caches
+.cache/
+*.pt
+*.pth
